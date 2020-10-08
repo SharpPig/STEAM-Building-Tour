@@ -1,0 +1,182 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  user-select:none;
+  background-color:white;
+}
+h1 {
+  margin: 5vmin;
+  font-size:4vmin;
+}
+.header {
+  /*user-select:none;*/
+  position:relative;
+  font-family: 'Roboto Condensed', sans-serif;
+  width:100%;
+  font-size:6vmin;
+  background-color:orange;
+  text-align:center;
+  box-shadow:0vmin 1vmin 1vmin rgba(0,0,0,0.8);
+  margin-bottom:0.75vmin;
+}
+.bar {
+  border-radius:2vmin;
+  position:absolute;
+  width:7vmin;
+  height:1.25vmin;
+  top:1vmin;
+  left:1.5vmin;
+}
+#bar2 {
+  top:3vmin;
+}
+#bar3 {
+  top:5vmin;
+}
+.navbar {
+  background-color:white;
+  width:13%;
+  float:left;
+  position:sticky;
+  margin-right:7vmin;
+  display:none;
+  height:100%;
+}
+.navbar ul li {
+  list-style-type:none;
+}
+.navbar ul li a{
+  text-decoration:none;
+}
+.navbar ul li:hover {
+  font-weight:bold;
+}
+.navbar ul li a:link {
+  color:black;
+}
+.navbar ul li a:visited {
+  color:darkgrey;
+}
+.navbar ul li a:active {
+  color:orange;
+}
+.text { 
+  background-color:rgba(0,0,0,0.3);
+  color:white;
+  font-size:3vmin;
+  width:16.5vmin;
+  z-index:1;
+  position:absolute;
+  /*left:5vmin;
+  top:17vmin;*/
+  left:8%;
+  top:35%; 
+}
+form {
+  font-size:3vmin;
+}
+.dropdown {
+  margin:5vmin;
+  float:left;
+}
+.dropdown ul li {
+  display:none;
+  list-style-type:none;
+  margin:auto;
+  padding:0px;
+  background-color:light-grey;
+}
+.dropdown ul li:hover {
+  background-color:lightgrey;
+}
+.filterText {
+  float:left;
+  display:block;
+  border-left:0.2vmin solid orange;
+  width:5mvin;
+}
+.filterText:hover {
+  background-color:lightgrey;
+}
+.home {
+  color:white;
+  padding-top:15vmin;
+  padding-bottom:15vmin;
+  text-align:center;
+  background-image:url("IMG_1414.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:auto;
+  box-sizing:border-box;
+}
+.home h1 {
+  font-size:15vmin;
+}
+.videoC {
+  padding-top:12vmin;
+  padding-bottom:15vmin;
+  margin-left: auto;
+  margin-right: auto;
+  horizontal-align:center;
+  background-color:lightgrey;
+  width:100%;
+  height:auto;
+}
+.video {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  max-width:1000px;
+  height:auto;
+}
+.siteText {
+  text-align:center;
+}
+.info {
+  text-align:center;
+  color:white;
+  width:auto;
+}
+.moreInfo {
+  display:none;
+  text-align:center;
+  background-color:#ff9900;
+  width:auto;
+}
+#container {
+  width:100%;
+  float:left;
+}
+.miPic {
+  width:5vmin;
+  height:5vmin;
+  position:absolute;
+  right:75vmin;
+  top:0vmin;
+}
+#site2 {
+  background-color:darkgrey;
+}
+.infoContainer {
+  position:relative;
+}
+@media screen and (max-width:600px) {
+  .header {
+    background-color:#ffa502;
+  }
+  .navbar {
+    width:100%;
+    height:auto;
+    display:none;
+    float:none;
+  }
+  .navbar ul li {
+    text-align:center;
+    margin-left:0px;
+    width:100%;
+  }
+  embed {
+    width:100%;
+    float:none;
+  }
+}
