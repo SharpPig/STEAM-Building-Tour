@@ -1,1 +1,2 @@
 # STEAM-Tour Website
+Are you an Allen ISD student who wishes that they could tour the STEAM Center but feel as though you cannot due to Coronavirus restrictions? With the website developed using the code above, you can visit the Allen ISD STEAM Center virtually! Please note that all of the images provided on the website were developed inside of Allen ISD, and can therefore not be modified or used for other purposes. In addition, all of the videos are restricted so that only Allen ISD students (logged in with their STUDENT google account) can view them.
